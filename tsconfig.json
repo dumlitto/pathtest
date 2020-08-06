@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "isolatedModules": true,
+    "lib": ["dom", "es2017"],
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "paths": {
+      "@project/api": ["../api/src"],
+      "@project/api/*": ["../api/src/*"],
+      "@project/types": ["../types/src"],
+      "@project/types/*": ["../types/src/*"]
+    }
+  }
+}

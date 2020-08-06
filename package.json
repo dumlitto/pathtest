@@ -1,7 +1,5 @@
 {
-  "name": "mern-starter",
-  "description": "Starter project for MERN applications.",
-  "author": "Kamil Dubiel",
+  "name": "path-test",
   "private": true,
   "workspaces": [
     "packages/*"
