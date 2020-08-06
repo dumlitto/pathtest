@@ -1,0 +1,12 @@
+{
+  "name": "mern-starter",
+  "description": "Starter project for MERN applications.",
+  "author": "Kamil Dubiel",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lerna": "^3.20.2"
+  }
+}
